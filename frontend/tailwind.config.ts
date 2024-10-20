@@ -9,6 +9,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        slideToRight: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideToLeft: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+      },
+      animation: {
+        slideToRight: 'slideToRight 0.8s ease-in-out forwards',
+        slideToLeft: 'slideToLeft 0.8s ease-in-out forwards',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
