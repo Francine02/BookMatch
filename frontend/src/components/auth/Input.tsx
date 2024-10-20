@@ -21,7 +21,7 @@ export default function Input({ type, label, placeholder, value, onChange }: Inp
         <div className="relative mb-5">
             <label className="block text-sm 2xl:text-base font-medium mb-1">{label}</label>
             <input
-                type={type === "password" && !isPasswordVisible ? "password" : type}
+                type={type === "password" ? (isPasswordVisible ? "text" : "password") : type}
                 className="bg-gray-100 border text-md rounded-lg block w-full p-2.5"
                 placeholder={placeholder}
                 value={value}
