@@ -31,7 +31,7 @@ export default function Register() {
 
     return (
         <div className='sm:grid sm:grid-cols-[2fr_1fr] md:grid-cols-[3fr_2fr] xl:grid-cols-[2fr_3fr] h-screen sm:items-center overflow-x-hidden'>
-            <div className="px-10 md:px-16 lg:px-24 xl:px-8 2xl:px-32 py-5 justify-items-center animate-slideToRight">
+            <div className="px-10 md:px-16 lg:px-24 xl:px-12 2xl:px-32 py-5 animate-slideToRight">
                 <h1 className="text-3xl lg:text-4xl font-semibold tracking-wide text-center mb-5">Criar conta</h1>
 
                 <form onSubmit={(e) => { e.preventDefault(); handleRegister(); }}>

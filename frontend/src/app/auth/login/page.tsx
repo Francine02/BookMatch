@@ -32,7 +32,7 @@ export default function Login() {
     <div className='sm:grid sm:grid-cols-[2fr_3fr] md:grid-cols-[2fr_3fr] xl:grid-cols-[2fr_1fr] h-screen sm:items-center overflow-x-hidden'>
       <Img animate="animate-slideToRight" />
 
-      <div className="px-10 md:px-16 lg:px-24 xl:px-8 2xl:px-24 py-8 justify-items-center bg-white animate-slideToLeft">
+      <div className="px-10 md:px-16 lg:px-24 xl:px-12 2xl:px-32 py-8 bg-white animate-slideToLeft">
         <h1 className="text-3xl lg:text-4xl font-semibold tracking-wide text-center mb-10">Entrar</h1>
 
         <form onSubmit={(e) => { e.preventDefault(); handleLogin(); }}>
