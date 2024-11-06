@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Document(collection = "ranting")
-public class Ranting {
+public class Rating {
     @Id
     private Long id; 
     private Long userId;

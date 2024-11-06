@@ -17,6 +17,6 @@ public class Book {
     private String genre;
     private String description;
     private double averageRating;
-    private List<Ranting> rantings;
+    private List<Rating> ratings;
     private List<Review> reviews;
 }
