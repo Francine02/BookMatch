@@ -4,4 +4,4 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.me.backend.models.Book;
 
-public interface BookRepository extends MongoRepository<Book, Long> {}
+public interface BookRepository extends MongoRepository<Book, String> {}
