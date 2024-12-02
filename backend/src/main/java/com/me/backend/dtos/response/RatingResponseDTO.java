@@ -1,8 +1,8 @@
 package com.me.backend.dtos.response;
 
 public record RatingResponseDTO(
-    Long id,
-    Long bookId,
+    String id,
+    String bookId,
     int stars,
     String comment
 ) {}

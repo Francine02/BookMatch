@@ -11,7 +11,7 @@ import lombok.Data;
 @Document(collection = "recommendation")
 public class Recommendation {
     @Id
-    private Long id;
-    private Long userId;
+    private String id;
+    private String userId;
     private List<Book> recommendedBooks;
 }

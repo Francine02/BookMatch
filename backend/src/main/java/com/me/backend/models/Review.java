@@ -11,9 +11,9 @@ import lombok.Data;
 @Document(collection = "review")
 public class Review {
     @Id
-    private Long id;
-    private Long userId;
-    private Long bookId;
+    private String id;
+    private String userId;
+    private String bookId;
     private String content;
     private Date createdAt;
 }

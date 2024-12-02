@@ -9,9 +9,9 @@ import lombok.Data;
 @Document(collection = "ranting")
 public class Rating {
     @Id
-    private Long id; 
-    private Long userId;
-    private Long bookId;
+    private String id; 
+    private String userId;
+    private String bookId;
     private int stars;
     private String comment;
 }

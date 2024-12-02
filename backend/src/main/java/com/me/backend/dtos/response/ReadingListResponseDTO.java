@@ -3,5 +3,5 @@ package com.me.backend.dtos.response;
 import java.util.List;
 
 public record ReadingListResponseDTO(
-    List<Long> bookIds
+    List<String> bookIds
 ) {}
